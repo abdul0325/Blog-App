@@ -1,14 +1,16 @@
 import { Request, Response } from "express";
-import prisma from "../config/prisma";
+import prisma from "../config/prisma.config";
 
-// ✅ Create post
+// Create post
 export const createPost = async (req: Request, res: Response) => {
   try {
     const { title, content } = req.body;
     const user = (req as any).user; // added by protect middleware
 
     if (!title || !content) {
-      return res.status(400).json({ message: "Title and content are required" });
+      return res
+        .status(400)
+        .json({ message: "Title and content are required" });
     }
 
     const post = await prisma.post.create({
@@ -26,7 +28,7 @@ export const createPost = async (req: Request, res: Response) => {
   }
 };
 
-// ✅ Get all posts
+// Get all posts
 export const getAllPosts = async (req: Request, res: Response) => {
   try {
     const posts = await prisma.post.findMany({
@@ -43,7 +45,7 @@ export const getAllPosts = async (req: Request, res: Response) => {
   }
 };
 
-// ✅ Get post by ID
+// Get post by ID
 export const getPostById = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
@@ -68,8 +70,7 @@ export const getPostById = async (req: Request, res: Response) => {
   }
 };
 
-
-// ✅ Update post
+// Update post
 export const updatePost = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
@@ -84,7 +85,9 @@ export const updatePost = async (req: Request, res: Response) => {
 
     // check if logged-in user owns this post
     if (post.authorId !== user.id) {
-      return res.status(403).json({ message: "You can update only your own posts" });
+      return res
+        .status(403)
+        .json({ message: "You can update only your own posts" });
     }
 
     const updatedPost = await prisma.post.update({
@@ -99,7 +102,7 @@ export const updatePost = async (req: Request, res: Response) => {
   }
 };
 
-// ✅ Delete post
+// Delete post
 export const deletePost = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
@@ -112,7 +115,9 @@ export const deletePost = async (req: Request, res: Response) => {
     }
 
     if (post.authorId !== user.id) {
-      return res.status(403).json({ message: "You can delete only your own posts" });
+      return res
+        .status(403)
+        .json({ message: "You can delete only your own posts" });
     }
 
     await prisma.post.delete({ where: { id } });

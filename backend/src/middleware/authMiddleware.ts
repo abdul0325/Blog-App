@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import prisma from "../config/prisma";
+import prisma from "../config/prisma.config";
 import { Request, Response, NextFunction } from "express";
 
 export const protect = async (
@@ -18,7 +18,6 @@ export const protect = async (
   }
 
   try {
-    // 👇 change id to string here
     const decoded = jwt.verify(token, process.env.JWT_SECRET!) as {
       userId: string;
     };

@@ -1,11 +1,11 @@
 import { Request, Response } from "express";
-import  prisma  from "../config/prisma";
+import  prisma  from "../config/prisma.config";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 const JWT_SECRET = process.env.JWT_SECRET as string;
 
-// ✅ Register new user
+// Register new user
 export const registerUser = async (req: Request, res: Response) => {
   try {
     const { name, email, password } = req.body;
@@ -37,7 +37,7 @@ export const registerUser = async (req: Request, res: Response) => {
   }
 };
 
-// ✅ Login existing user
+// Login existing user
 export const loginUser = async (req: Request, res: Response) => {
   try {
     const { email, password } = req.body;
@@ -70,7 +70,7 @@ export const loginUser = async (req: Request, res: Response) => {
   }
 };
 
-// ✅ Get all users (for testing)
+// Get all users
 export const getAllUsers = async (_req: Request, res: Response) => {
   try {
     const users = await prisma.user.findMany({

@@ -59,3 +59,34 @@ Content-Type: application/json
 GET  http://localhost:5000/api/users
 
 
+### get the all product
+GET  http://localhost:5000/api/products
+
+### get the product by id
+GET  http://localhost:5000/api/products/cmgmf722a0005vmwocseyziie
+
+
+### create the new product
+POST  http://localhost:5000/api/products
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxIiwiaWF0IjoxNzYwMTk1NzI4LCJleHAiOjE3NjAyODIxMjh9.UhJYqo2_8XN2YAqNuon2urQEyrDFHN4H7N5bTaD7yeY
+
+{
+  "name": "MacBook Air M3",
+  "description": "Ultra-thin laptop with M3 chip, 16GB RAM, 512GB SSD",
+  "brand": "Apple",
+  "category": "Laptops",
+  "price": 1599.99,
+  "stockQuantity": 12,
+  "variants": {
+    "color": ["Space Gray", "Silver"],
+    "storage": ["256GB", "512GB"]
+  },
+  "rating": 4.7,
+  "totalReviews": 10,
+  "tags": ["apple", "macbook", "laptop", "m3"],
+  "authorId": "1" 
+}
+
+
+

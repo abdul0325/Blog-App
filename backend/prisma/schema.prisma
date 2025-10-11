@@ -7,6 +7,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model User {
+  id       String    @id @default(cuid())
+  email    String    @unique
+  password String
+  name     String
+  posts    Post[]
+  products Product[]
+}
+
 model Post {
   id        String   @id @default(cuid())
   title     String
@@ -16,10 +25,19 @@ model Post {
   author    User     @relation(fields: [authorId], references: [id])
 }
 
-model User {
-  id       String @id @default(cuid())
-  email    String @unique
-  password String
-  name     String
-  posts    Post[]
+model Product {
+  id            String   @id @default(cuid())
+  name          String
+  description   String?
+  brand         String?
+  category      String?
+  price         Float
+  stockQuantity Int
+  variants      Json?
+  rating        Float?   @default(0.0)
+  totalReviews  Int?     @default(0)
+  tags          String[]
+  createdAt     DateTime @default(now())
+  authorId      String
+  author        User     @relation(fields: [authorId], references: [id])
 }
