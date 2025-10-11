@@ -1,9 +1,3 @@
-Perfect 💜 Let’s make your **README.md** shine — like something you’d proudly pin on your GitHub repo.
-Here’s a **polished, aesthetic, and fully formatted** README for your full-stack **Blogs** app, featuring sections, emojis, and responsive Markdown structure (it’ll look *amazing* on GitHub):
-
----
-
-```markdown
 <h1 align="center">📝 Blogs — A Modern Full Stack Blog Platform</h1>
 
 <p align="center">
@@ -42,6 +36,7 @@ The interface features **modern glassmorphism**, smooth gradients, and an intuit
 | **Auth** | [JWT](https://jwt.io/) | Secure token-based authentication |
 | **HTTP Client** | [Axios](https://axios-http.com/) | Smooth API communication |
 | **Deployment** | [Vercel](https://vercel.com/) & [Render](https://render.com/) | Cloud hosting for both frontend & backend |
+
 
 ---
 
@@ -264,4 +259,3 @@ You’re free to use, modify, and distribute this project as long as attribution
 <p align="center">💜 Built with passion using Next.js, Express, Prisma & PostgreSQL</p>
 ```
 
----
