@@ -1,0 +1,61 @@
+### Post create request
+POST http://localhost:5000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxIiwiaWF0IjoxNzYwMDgzNTQzLCJleHAiOjE3NjAxNjk5NDN9.5KK2wzXR2ox3c2m4JQEawMxZhdApeW8wCH-4M9N9nYU
+
+{
+  "title": "My second Blog Post",
+  "content": "This is my second post using Prisma and Express!",
+  "authorId": 1
+}
+
+### Post Get request
+// single post get
+# GET http://localhost:5000/api/posts/1
+// all posts
+GET http://localhost:5000/api/posts
+Content-Type: application/json
+
+{
+  "title": "My First Blog Post",
+  "content": "This is my first post using Prisma and Express!",
+  "authorId": 1
+}
+
+### Update the post
+PUT http://localhost:5000/api/posts/cmgkjwpaa0000vmo0xdh0a47v
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxIiwiaWF0IjoxNzYwMDgzNTQzLCJleHAiOjE3NjAxNjk5NDN9.5KK2wzXR2ox3c2m4JQEawMxZhdApeW8wCH-4M9N9nYU
+
+{
+  "title": "Updated Title",
+  "content": "Updated content"
+}
+
+### delete the post
+DELETE http://localhost:5000/api/posts/cmgkjwpaa0000vmo0xdh0a47v
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxIiwiaWF0IjoxNzYwMDgzNTQzLCJleHAiOjE3NjAxNjk5NDN9.5KK2wzXR2ox3c2m4JQEawMxZhdApeW8wCH-4M9N9nYU
+
+### create a new user
+POST http://localhost:5000/api/users/register
+Content-Type: application/json
+
+{
+  "name": "Abdul Rehman",
+  "email": "abdul@example.com",
+  "password": "123456"
+}
+
+### login the user
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+  "email": "abdul@example.com",
+  "password": "123456"
+}
+
+### get all users
+GET  http://localhost:5000/api/users
+
+
