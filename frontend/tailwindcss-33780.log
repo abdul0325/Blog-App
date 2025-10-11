@@ -1,0 +1,604 @@
+2025-10-11T02:42:41.884767Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-10-11T02:42:41.885663Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend", pattern: "**/*", negated: false }
+2025-10-11T02:42:41.886347Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-10-11T02:42:41.886385Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend" }
+2025-10-11T02:42:41.889218Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.890960Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\eslint.config.mjs"
+2025-10-11T02:42:41.891302Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\next.config.ts"
+2025-10-11T02:42:41.891569Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\package.json"
+2025-10-11T02:42:41.891648Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\postcss.config.mjs"
+2025-10-11T02:42:41.891771Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:42:41.891922Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\file.svg"
+2025-10-11T02:42:41.891995Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\globe.svg"
+2025-10-11T02:42:41.892064Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\next.svg"
+2025-10-11T02:42:41.892134Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\vercel.svg"
+2025-10-11T02:42:41.892204Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\window.svg"
+2025-10-11T02:42:41.892304Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\README.md"
+2025-10-11T02:42:41.892422Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:42:41.892682Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:42:41.892839Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\globals.css"
+2025-10-11T02:42:41.892914Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\layout.tsx"
+2025-10-11T02:42:41.893037Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:42:41.893193Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login\\page.tsx"
+2025-10-11T02:42:41.893288Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\page.tsx"
+2025-10-11T02:42:41.893411Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:42:41.893547Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register\\page.tsx"
+2025-10-11T02:42:41.893715Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:42:41.893850Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context\\AuthContext.tsx"
+2025-10-11T02:42:41.893991Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:42:41.894159Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib\\axios.ts"
+2025-10-11T02:42:41.894292Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\tsconfig.json"
+2025-10-11T02:42:41.894405Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.894697Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.894718Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.894725Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 17 file(s)
+2025-10-11T02:42:41.896520Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\eslint.config.mjs"
+2025-10-11T02:42:41.896676Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\next.config.ts"
+2025-10-11T02:42:41.896784Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\package.json"
+2025-10-11T02:42:41.896900Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\postcss.config.mjs"
+2025-10-11T02:42:41.896984Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\file.svg"
+2025-10-11T02:42:41.897071Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\globe.svg"
+2025-10-11T02:42:41.897176Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\next.svg"
+2025-10-11T02:42:41.897295Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\vercel.svg"
+2025-10-11T02:42:41.897403Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public\\window.svg"
+2025-10-11T02:42:41.897502Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\README.md"
+2025-10-11T02:42:41.897899Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\layout.tsx"
+2025-10-11T02:42:41.898016Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login\\page.tsx"
+2025-10-11T02:42:41.898110Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\page.tsx"
+2025-10-11T02:42:41.898139Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context\\AuthContext.tsx"
+2025-10-11T02:42:41.898269Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register\\page.tsx"
+2025-10-11T02:42:41.898281Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib\\axios.ts"
+2025-10-11T02:42:41.898385Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\tsconfig.json"
+2025-10-11T02:42:41.898768Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.898804Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.898825Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.900707Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.900756Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.900772Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.900781Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-10-11T02:42:41.901019Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\globals.css"
+2025-10-11T02:42:41.901048Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.901132Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.901148Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.903333Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.903381Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.908064Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.908535Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.908568Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.913096Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:42:41.914022Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:42:41.914490Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:42:41.923383Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:42:41.924026Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:42:41.924589Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:42:41.925216Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:42:41.925955Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.955406Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.955881Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.955907Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:42:41.960385Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:42:41.961455Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:42:41.961922Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:42:41.962537Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:42:41.963172Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:42:41.963794Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:42:41.964326Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:42:41.965019Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:42:41.973149Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:33.351326Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:33.356251Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:44:33.358793Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:44:33.359656Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:44:33.360218Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:44:33.360512Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login\\page.tsx"
+2025-10-11T02:44:33.360902Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:44:33.361541Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:44:33.362125Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:44:33.362867Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:33.362908Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:33.362921Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:33.362931Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-10-11T02:44:33.363115Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login\\page.tsx"
+2025-10-11T02:44:33.363140Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:33.363154Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:33.363165Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:33.498733Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:33.498822Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:33.498961Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:33.499439Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:33.499466Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:33.506169Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:44:33.507470Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:44:33.507909Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:44:33.508445Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:44:33.509007Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:44:33.509561Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:44:33.510086Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:44:33.510826Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:33.577085Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:33.577396Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:33.577422Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:35.802105Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:35.806704Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:44:35.807635Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:44:35.808236Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:44:35.808724Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:44:35.809830Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:44:35.810605Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:44:35.811084Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:44:35.811625Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:35.811650Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:35.811660Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:35.811668Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:44:35.811678Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:35.811687Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:35.811695Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:35.811704Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:35.811712Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:35.811722Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:35.812044Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:35.812062Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:35.816421Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:44:35.817304Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:44:35.817678Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:44:35.818371Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:44:35.819529Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:44:35.820262Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:44:35.820787Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:44:35.821407Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:35.856737Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:44:35.857100Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:44:35.857129Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:34.422973Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:34.430544Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:45:34.432360Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:45:34.433128Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:45:34.434183Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:45:34.435126Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\page.tsx"
+2025-10-11T02:45:34.435625Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:45:34.436704Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:45:34.437693Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:45:34.439095Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:34.439140Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:34.439160Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:34.439177Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-10-11T02:45:34.439436Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\page.tsx"
+2025-10-11T02:45:34.439481Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:34.439513Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:34.439530Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:34.527136Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:34.527217Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:34.560472Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:34.560820Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:34.560844Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:34.565307Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:45:34.567310Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:45:34.567695Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:45:34.568217Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:45:34.568761Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:45:34.569282Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:45:34.569953Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:45:34.570843Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:34.579644Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:34.579943Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:34.579973Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:38.017239Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:38.021994Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:45:38.023041Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:45:38.023463Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:45:38.024043Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:45:38.024650Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:45:38.025232Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:45:38.025779Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:45:38.026885Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:38.026949Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:38.026965Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:38.026975Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:45:38.026987Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:38.026999Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:38.027009Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:38.027023Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:38.027033Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:38.027046Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:38.027426Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:38.027448Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:38.045301Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:45:38.046592Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:45:38.047114Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:45:38.047818Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:45:38.048497Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:45:38.049108Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:45:38.049705Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:45:38.050460Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:38.086338Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:45:38.087265Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:45:38.087303Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:44.872741Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:44.877047Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:52:44.878095Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:52:44.878464Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:52:44.878984Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:52:44.879513Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:52:44.879889Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:52:44.880437Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:52:44.880971Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:52:44.882409Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:44.882452Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:44.882473Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:44.882488Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:52:44.882501Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:44.882512Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:44.882522Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:44.882533Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:44.882542Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:44.882558Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:44.882958Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:44.882982Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:44.886787Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:52:44.887654Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:52:44.888042Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:52:44.888564Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:52:44.889099Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:52:44.889481Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:52:44.889993Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:52:44.890462Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:52:44.891269Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:44.894653Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:44.894845Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:44.894865Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:51.773871Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:51.776651Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:52:51.777238Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:52:51.777611Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:52:51.778265Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:52:51.779006Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:52:51.779453Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:52:51.780113Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:52:51.780621Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context\\c"
+2025-10-11T02:52:51.781214Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:52:51.782008Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:51.782046Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:51.782057Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:51.782065Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:52:51.782075Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:51.782084Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:51.782092Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:51.782100Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:51.782109Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:51.782119Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:51.782438Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:51.782458Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:51.787518Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:52:51.788223Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:52:51.788610Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:52:51.789058Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:52:51.789457Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:52:51.789727Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:52:51.790078Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:52:51.790361Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context\\c"
+2025-10-11T02:52:51.790650Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:52:51.791078Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:51.791249Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:51.791383Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:51.791396Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:56.224327Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:56.228950Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:52:56.229719Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:52:56.230004Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:52:56.230383Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:52:56.230968Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:52:56.231621Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:52:56.232271Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:52:56.233460Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:52:56.233960Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context\\c"
+2025-10-11T02:52:56.234329Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:52:56.234740Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:56.234760Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:56.234767Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:56.234772Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:52:56.234779Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:56.234785Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:56.234791Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:56.234798Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:56.234803Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:56.234810Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:56.235045Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:56.235060Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:56.237802Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:52:56.238414Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:52:56.238666Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:52:56.239008Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:52:56.239507Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:52:56.239773Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:52:56.240070Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:52:56.240750Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:52:56.241266Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context\\c"
+2025-10-11T02:52:56.241670Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:52:56.242227Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:56.242392Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:56.242555Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:56.242568Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:58.683262Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:58.688115Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:52:58.689019Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:52:58.689581Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:52:58.690051Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:52:58.690612Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:52:58.691300Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:52:58.692027Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:52:58.692817Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context\\c"
+2025-10-11T02:52:58.693575Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:52:58.694448Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:58.694508Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:58.694526Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:58.694538Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:52:58.694553Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:58.694568Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:58.694581Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:58.694596Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:58.694610Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:58.694623Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:58.694984Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:58.695039Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:58.699359Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:52:58.700020Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:52:58.700264Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:52:58.700622Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:52:58.700990Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:52:58.701251Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:52:58.701597Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:52:58.701975Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context\\c"
+2025-10-11T02:52:58.702272Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:52:58.702666Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:58.702788Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:52:58.702972Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:52:58.702989Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:02.751779Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:02.756212Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:02.757115Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:02.757531Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:02.758171Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:02.758862Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:02.759318Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:02.759902Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:02.760424Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:02.761095Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:02.761121Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:02.761132Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:02.761142Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:53:02.761152Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:02.761162Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:02.761172Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:02.761181Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:02.761190Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:02.761200Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:02.761599Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:02.761629Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:02.765887Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:02.766801Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:02.767222Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:02.767795Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:02.768457Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:02.768943Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:02.769557Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:02.770135Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:02.770859Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:02.771011Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:02.771188Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:02.771207Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:11.794127Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:11.797957Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:11.798646Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:11.799050Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:11.799472Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:11.799869Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:11.800132Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:11.800448Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:11.800822Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:11.801158Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:11.801860Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:11.801906Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:11.801918Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:11.801927Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:53:11.801938Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:11.801948Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:11.801957Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:11.801967Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:11.801977Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:11.801987Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:11.802310Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:11.802333Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:11.806406Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:11.807153Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:11.807627Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:11.808707Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:11.809714Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:11.810269Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:11.810925Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:11.811684Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:11.812307Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:11.813221Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:11.814061Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:11.814306Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:11.814339Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:20.127098Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:20.132287Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:20.133107Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:20.133427Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:20.133891Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:20.134385Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:20.134741Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:20.135039Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create\\page.tsx"
+2025-10-11T02:53:20.135500Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:20.136244Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:20.136931Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:20.137761Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:20.137802Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:20.137816Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:20.137827Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-10-11T02:53:20.137965Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create\\page.tsx"
+2025-10-11T02:53:20.137989Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:20.138004Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:20.138015Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:20.138029Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:20.138041Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:20.138054Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:20.138404Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:20.138431Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:20.142798Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:20.143851Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:20.144343Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:20.144947Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:20.145584Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:20.146024Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:20.146759Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:20.147301Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:20.147686Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:20.148414Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:20.148573Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:20.148801Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:20.148825Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.870451Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.874065Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:27.874915Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:27.875242Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:27.875558Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:27.876223Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:27.876569Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:27.876807Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create\\page.tsx"
+2025-10-11T02:53:27.877277Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:27.877968Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:27.878528Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:27.879166Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.879201Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.879213Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.879223Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-10-11T02:53:27.879372Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create\\page.tsx"
+2025-10-11T02:53:27.879394Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.879406Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.879416Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.879438Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.879451Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.879466Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.879904Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.879941Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.884192Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:27.885200Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:27.885625Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:27.886172Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:27.886577Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:27.886872Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:27.887278Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:27.887837Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:27.888352Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:27.888989Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.889121Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.889329Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.889352Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.905573Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.909536Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:27.910398Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:27.910774Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:27.911264Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:27.911594Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:27.912306Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:27.913103Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:27.913825Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:27.914380Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:27.915104Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.915134Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.915147Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.915159Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:53:27.915171Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.915184Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.915196Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.915208Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.915220Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.915232Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.915664Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.915689Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.919306Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:27.920358Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:27.920734Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:27.921278Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:27.921953Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:27.922460Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:27.923153Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:27.923787Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:27.924390Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:27.925143Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.925484Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:27.925644Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:27.925667Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:30.887967Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:30.891673Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:30.892640Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:30.893051Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:30.893602Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:30.894270Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:30.894815Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:30.895278Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create\\page.tsx"
+2025-10-11T02:53:30.895659Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:30.896359Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:30.896905Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:30.897496Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:30.897521Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:30.897532Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:30.897540Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-10-11T02:53:30.897664Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create\\page.tsx"
+2025-10-11T02:53:30.897684Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:30.897694Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:30.897705Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:30.897940Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:30.897973Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:30.908089Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:30.908550Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:30.908587Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:30.912685Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:30.913634Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:30.914138Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:30.914773Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:30.915506Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:30.915968Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:30.916644Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:30.917317Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:30.918165Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:30.919176Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:30.919443Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:30.919604Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:30.919623Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:31.000460Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:31.004505Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:31.005688Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:31.006185Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:31.006739Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:31.007394Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:31.007802Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:31.008389Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:31.008932Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:31.009416Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:31.010046Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:31.010077Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:31.010090Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:31.010100Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 0 file(s)
+2025-10-11T02:53:31.010117Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:31.010131Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:31.010141Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:31.010150Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:31.010159Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:31.010170Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:31.010478Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:31.010497Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:31.014807Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\public"
+2025-10-11T02:53:31.015866Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src"
+2025-10-11T02:53:31.016296Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app"
+2025-10-11T02:53:31.016902Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\login"
+2025-10-11T02:53:31.017531Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts"
+2025-10-11T02:53:31.017956Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\posts\\create"
+2025-10-11T02:53:31.018558Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\app\\register"
+2025-10-11T02:53:31.019198Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\context"
+2025-10-11T02:53:31.019700Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Lenovo\\Desktop\\blog-app\\frontend\\src\\lib"
+2025-10-11T02:53:31.020312Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:31.024263Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-10-11T02:53:31.024439Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-10-11T02:53:31.024457Z  INFO get_globs: tailwindcss_oxide::scanner: exit

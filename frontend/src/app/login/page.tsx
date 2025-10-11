@@ -1,26 +1,71 @@
 "use client";
-import { useEffect, useState } from "react";
-import api from "@/lib/axios";
+import { useState } from "react";
+import { useAuth } from "@/context/AuthContext";
+import { useRouter } from "next/navigation";
 
-export default function HomePage() {
-  const [posts, setPosts] = useState<any[]>([]);
+export default function LoginPage() {
+  const { login } = useAuth();
+  const router = useRouter();
+  const [form, setForm] = useState({ email: "", password: "" });
+  const [error, setError] = useState("");
 
-  useEffect(() => {
-    api.get("/posts").then((res) => setPosts(res.data));
-  }, []);
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError("");
+
+    try {
+      await login(form.email, form.password);
+      router.push("/"); // Redirect to homepage
+    } catch (err) {
+      console.error(err);
+      setError("Invalid email or password");
+    }
+  };
 
   return (
-    <main className="max-w-4xl mx-auto py-10">
-      <h1 className="text-3xl font-semibold mb-6 text-[#A33CFC]">All Blog Posts</h1>
-      <div className="space-y-4">
-        {posts.map((p) => (
-          <div key={p.id} className="border rounded-lg p-4 bg-white shadow">
-            <h2 className="text-xl font-semibold">{p.title}</h2>
-            <p className="text-gray-600">{p.content}</p>
-            <p className="text-sm text-gray-400">by {p.author?.name}</p>
-          </div>
-        ))}
-      </div>
-    </main>
+    <div className="flex items-center justify-center min-h-screen bg-[#F6EBFE]">
+      <form
+        onSubmit={handleSubmit}
+        className="bg-white shadow-lg rounded-2xl p-8 w-full max-w-md"
+      >
+        <h1 className="text-2xl font-semibold text-center mb-6 text-[#A33CFC]">
+          Login
+        </h1>
+
+        {error && (
+          <p className="text-red-500 text-sm mb-3 text-center">{error}</p>
+        )}
+
+        <input
+          type="email"
+          placeholder="Email"
+          className="border p-2 w-full mb-3 rounded"
+          value={form.email}
+          onChange={(e) => setForm({ ...form, email: e.target.value })}
+        />
+
+        <input
+          type="password"
+          placeholder="Password"
+          className="border p-2 w-full mb-4 rounded"
+          value={form.password}
+          onChange={(e) => setForm({ ...form, password: e.target.value })}
+        />
+
+        <button
+          type="submit"
+          className="bg-[#A33CFC] text-white py-2 w-full rounded hover:bg-[#8c33d9] transition"
+        >
+          Login
+        </button>
+
+        <p className="text-center text-sm mt-4 text-gray-500">
+          Don’t have an account?{" "}
+          <a href="/register" className="text-[#A33CFC] hover:underline">
+            Register
+          </a>
+        </p>
+      </form>
+    </div>
   );
 }
