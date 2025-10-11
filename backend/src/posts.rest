@@ -69,24 +69,28 @@ GET  http://localhost:5000/api/products/cmgmf722a0005vmwocseyziie
 ### create the new product
 POST  http://localhost:5000/api/products
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxIiwiaWF0IjoxNzYwMTk1NzI4LCJleHAiOjE3NjAyODIxMjh9.UhJYqo2_8XN2YAqNuon2urQEyrDFHN4H7N5bTaD7yeY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxIiwiaWF0IjoxNzYwMTk4MzIyLCJleHAiOjE3NjAyODQ3MjJ9.Q4lY_4xUPRtYj5i5OlQEMORBZ--swgERcrLRqwX3yxE
 
 {
   "name": "MacBook Air M3",
   "description": "Ultra-thin laptop with M3 chip, 16GB RAM, 512GB SSD",
   "brand": "Apple",
   "category": "Laptops",
-  "price": 1599.99,
+  "price": 2999.99,
   "stockQuantity": 12,
   "variants": {
     "color": ["Space Gray", "Silver"],
     "storage": ["256GB", "512GB"]
   },
-  "rating": 4.7,
+  "views": 20,
+  "clicks": 100,
+  "rating": 2.7,
   "totalReviews": 10,
-  "tags": ["apple", "macbook", "laptop", "m3"],
+  "tags": ["apple", "macbook", "laptop", "m3","newtag"],
   "authorId": "1" 
 }
 
+###
+GET /api/products/search?name=phone&brand=Apple&category=Electronics&minPrice=500&maxPrice=2000&rating=4
 
 

@@ -33,10 +33,12 @@ model Product {
   category      String?
   price         Float
   stockQuantity Int
-  variants      Json?
+  variants      Json? // colors, size ..
   rating        Float?   @default(0.0)
   totalReviews  Int?     @default(0)
   tags          String[]
+  views         Int      @default(0) // Number of times product detail viewed
+  clicks        Int      @default(0) // Number of times product clicked
   createdAt     DateTime @default(now())
   authorId      String
   author        User     @relation(fields: [authorId], references: [id])
