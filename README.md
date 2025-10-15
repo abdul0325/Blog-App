@@ -238,7 +238,7 @@ Frontend running on 👉 **[http://localhost:3000](http://localhost:3000)**
 | :------------------------ | :------------------------------------------------- |
 | **Frontend (Next.js)**    | Deploy easily via **Vercel**                       |
 | **Backend (Express.js)**  | Use **Render**, **Railway**, or **Fly.io**         |
-| **Database (PostgreSQL)** | Host on **Neon**, **Supabase**, or **ElephantSQL** |
+| **Database (PostgreSQL)** | Host on **Neon** or **ElephantSQL** |
 
 ---
 
